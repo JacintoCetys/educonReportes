@@ -1,0 +1,50 @@
+//const host = 'http://localhost:4000/alumno'
+@api = http://localhost:4000/alumnos
+@api2 = http://localhost:4000
+
+
+GET {{api}}
+
+###
+GET {{api}}/965976
+
+###
+POST {{api}}/alumno?matricula=22000&nombre=jainto&paterno=ramirez
+
+###
+POST {{api}}/alumno HTTP/1.1
+content-type: application/json
+
+{
+    "matricula": "022000",
+    "campus": "mexicali"
+}
+
+###
+POST {{api2}}/periodo HTTP/1.1
+content-type: application/json
+
+{
+    "periodo": "2021-S1-OD",
+    "campus": "mexicali"
+}
+
+###
+POST {{api2}}/reporte HTTP/1.1
+content-type: application/json
+
+{
+    "periodo": "2021-S2-OD",
+    "campus": "mexicali"
+}
+
+###
+POST {{api2}}/padron HTTP/1.1
+content-type: application/json
+
+{
+    "periodo": "t4",
+    "anio": "2022",
+    "campus": "mexicali"
+}
+
