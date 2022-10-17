@@ -1,7 +1,6 @@
-# CETYS Soporte Portal Mi Campus backend
+# CETYS Universidad Educación Continua backend
 
-## Corvo Consultores
-
+## Jacinto Ramírez
 - Uso NodeJS
 - Express
 - mssql
