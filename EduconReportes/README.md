@@ -1,6 +1,6 @@
-# CETYS Soporte Portal Mi Campus
+# CETYS Universidad
 
-## Corvo Consultores
+## Jacinto Ramírez
 
 - Uso de Material ui, @MUI versión más reciente.
 - React
