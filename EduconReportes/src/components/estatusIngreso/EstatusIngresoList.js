@@ -38,11 +38,11 @@ export const EstatusIngresoList = ({ padronData, isLoading }) => {
   }
 
   const options = {
-    filter: true,
-    filterType: 'dropdown',
-    responsive: 'vertical',
-    fixedHeader: true,
-    fixedSelectColumn: true,
+    filter: true,    
+    filterType: 'multiselect',
+    responsive: 'standard',    
+    // fixedHeader: true,
+    // fixedSelectColumn: true,
     rowsPerPage: 15,
     tableBodyHeight: '400px',
     draggableColumns: {
