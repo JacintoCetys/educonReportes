@@ -55,7 +55,7 @@ export const getPadronUnico = async (req, res) => {
 			TC.Curso_General = 'OD'
 				AND INP.Cve_Periodo LIKE '${periodoFilter}%'
 				AND (INP.Estatus_Intencion = 'PR' OR INP.Estatus_Intencion = 'PM')
-				AND INP.Fecha_Alta IN (SELECT MAX(Fecha_Alta)
+				AND INP.Fecha_Alta IN (SELECT Fecha_Alta
 				FROM IntencionPago
 				WHERE Matricula = INP.Matricula AND Cve_Periodo = INP.Cve_Periodo)) AS RES
         `;
